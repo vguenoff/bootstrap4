@@ -5,6 +5,7 @@
 02_04-Blockquotes_Lists
 02_05-Using_Colors_with_Bootstrap
 02_06-Working_with_Images
+02_07-CSS_Variables
 03_02-Understanding_Containers_Rows
 03_03-Using_Columns
 03_04-Multiple_Column_Classes

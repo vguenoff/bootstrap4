@@ -42,6 +42,7 @@ Let's talk about the position property. If you are familiar with CSS, this one w
 		<code style="background:#D95357; color:white;">inline-block</code>
     <code style="background:#D95357; color:white;">block</code><br>
     <code style="background:#D95357; color:white;">table</code>
+    <code style="background:#D95357; color:white;">table-row</code>
     <code style="background:#D95357; color:white;">table-cell</code>
     <code style="background:#D95357; color:white;">flex</code>
     <code style="background:#D95357; color:white;">inline-flex</code>
@@ -52,6 +53,33 @@ Let's talk about the position property. If you are familiar with CSS, this one w
 > > Notes:
 1. The display properties mimic what is possible with CSS and opens up Bootstrap to flexbox classes that can help with layouts.
 2. To use a display class, you use the d- and then the type of display property you want to use. block, inline, inline-block or flex. Flex has a ton of options. We'll cover the basic container in this video and explore it further in the next.
+
+---
+
+<!-- .slide: data-state="hasicon" -->
+
+## <i class="fa fa-th"></i> Print Display
+<ul>
+	<li class="fragment"><p contenteditable>`d-print-TYP`</p>
+<br><b>TYP:</b>
+    <code style="background:#D95357; color:white;">none</code>
+    <code style="background:#D95357; color:white;">inline</code>
+		<code style="background:#D95357; color:white;">inline-block</code>
+    <code style="background:#D95357; color:white;">block</code><br>
+    <code style="background:#D95357; color:white;">table</code>
+    <code style="background:#D95357; color:white;">table-row</code>
+    <code style="background:#D95357; color:white;">table-cell</code>
+    <code style="background:#D95357; color:white;">flex</code>
+    <code style="background:#D95357; color:white;">inline-flex</code>
+		</small>
+	</li>
+</ul>
+
+> > Notes:
+
+There are also a few classes that can help you control when something show up when you use a paper printer.
+
+So, for example, you can use something like `d-print-none` when you want something not to print and combine these with the regular display classes as well, so something like `d-none d-print-block` so that it ONLY shows up when sending it to a printer. 
 
 ---
 

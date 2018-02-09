@@ -20,6 +20,7 @@
 03_13-MarginPadding
 03_14-ControllingVisibility
 03_15-Sizing_Utilities
+03_16-Borders
 04_02-Creating_a_Basic_Nav
 04_03-Navbars
 04_04-Navbar_Brand

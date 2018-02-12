@@ -11,7 +11,8 @@ Bootstrap helps you lay out forms using the column grid. There's a few classes y
 
 <ul>
 	<li class="fragment">needs `container`</li>
-	<li class="fragment">Use `rows` `cols`</li>
+  <li class="fragment">Use `row` `cols`</li>
+  <li class="fragment">Use `form-row`</li>
 	<li class="fragment">`col-form-label`</li>
 </ul>
 

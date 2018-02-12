@@ -7,19 +7,18 @@ Bootstrap helps you lay out forms using the column grid. There's a few classes y
 ---
 <!-- .slide: data-state="hasicon" -->
 
-## <i class="fa fa-check-square-o"></i> Form Styles
+## <i class="fa fa-check-square-o"></i> Form Columns
 
 <ul>
-	<li class="fragment">needs `container`</li>
-  <li class="fragment">Use `row` `cols`</li>
-  <li class="fragment">Use `form-row`</li>
+  <li class="fragment">Use `row` `col`</li>
+  <li class="fragment">needs `form-row` `col-auto`</li>
 	<li class="fragment">`col-form-label`</li>
 </ul>
 
 > > Speaker Notes:
-1. Just like with any other column system, you need to have a container class in order to make this work.
-2. You also need to use rows as well as columns together and you can make the layouts responsive. Pretty much anything you can do with columns you can do with forms, so make sure you check the videos on working with the grid systen,
-3. There is a class you can add to labels to make them work better with col-form-label
+1. To create multi-column forms, you can use the regular column classes like row and col as well as the grid to define where the breakpoints happen for the grid.
+2. There are some special classes you can use for forms like the form-row class which gives you a better spacing between columns in forms, since the typical spacing between columns is a little large at 32pixels. You can also use the col-auto class when you want the fields to automatically adjust to the size of the content instead of having to hard code a specific column grid number.
+3. If you are going to use the code for multiple columns, make sure that you 
 
 ## Demo
 

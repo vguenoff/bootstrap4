@@ -3,52 +3,25 @@
 Input Groups
 
 > > Speaker Notes:
-We've already looked at how to turn form elements into inline elements. There's a variation of this called inut groups  that allow you to put form elements in a horizontal layout with an integrated look. Let's check it out.
+We've already looked at how to turn form elements into inline elements. There's a variation of this called input groups  that allow you to put form elements in a horizontal layout with an integrated look. Let's check it out.
 ---
 <!-- .slide: data-state="hasicon" -->
 
 ## <i class="fa fa-check-square-o"></i> Input Group
 
 <ul>
-	<li class="fragment">`input-group-addon`</li>
-	<li class="fragment">Add on each side</li>
-	<li class="fragment">Other elements</li>
+  <li class="fragment">`input-group`</li>
+  <li class="fragment">`input-group-prepend` `input-group-append`</li>
+  <li class="fragment">`input-group-text`</li>
+  <li class="fragment">`aria-label` `sr-only`</li>
 </ul>
 
 > > Speaker Notes:
-1. The main class for these input groups is called input-group-addon and it adds an inline element right next to the input field. It has a style that makes them look like a single group.
-2. You can add one of these on each side of the form or even a couple on each side.
-3. You can add other elements like checkboxes and buttons to these forms. Let's take a look.
+1. The main class for these elements is called input-group and you can put them on form elements or inside input fields.
+1. You can add input groups in two places, either before an input field or after and you used these two classes to take care of that.
+1. Inside that, you create an input-group-text class and then add whatever you want inside. It can be text, buttons, checkboxes etc.
+1. If you do add checkboxes, they each require their own labels, so you can either use the aria label attribute or the sr-only class on a label
 
-## Demo
-
-```
-     <div class="form-group">
-      <label class="form-control-label" for="owneremail">Donation Amount</label>
-      <div class="input-group">
-        <span class="input-group-addon">
-          <label class="form-control-label sr-only" for="ownername">confirm</label>
-          <input type="checkbox" checked aria-label="Checkbox for confirming donation">          
-        </span>
-        <span class="input-group-addon">$</span>
-        <input type="text" class="form-control" placeholder="Donation Amount">
-        <span class="input-group-addon">.00</span>
-      </div>
-    </div>
-```
-
-```
-    <form class="form-inline">
-      <div class="input-group">
-        <label class="form-control-label sr-only" for="search">Search</label>
-        <input type="text" id="search" class="form-control" placeholder="Search for...">
-        <span class="input-group-btn">
-          <button class="btn btn-info" type="button">Go!</button>
-        </span>
-      </div>
-    </form>
-
-```
 
 ## Conclusion
-Input groups are a pretty handy style that let's you make very consise forms for elements like search or add a bit of pizzaz to your existing elements.
+Input groups are a pretty handy style that let's you make very concise fields for elements like search or add a bit of pizzaz to your existing forms.
